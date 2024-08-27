@@ -1,0 +1,79 @@
+/* GameBoard.css */
+
+/* Container for the entire board */
+.board {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 5px;
+    width: 300px;
+    margin: 20px auto;
+}
+
+/* Row within the board */
+.board-row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+}
+
+/* Each cell within the board */
+.cell {
+    width: 100%;
+    padding-top: 100%; /* Maintain square aspect ratio */
+    position: relative;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    font-size: 1.5rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.cell button {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: none;
+    border: none;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+/* Highlight for a selected cell */
+.cell:hover {
+    background-color: #ddd;
+}
+
+/* Styles for characters, if applicable */
+.character {
+    font-weight: bold;
+}
+
+/* Different styles for player A and player B characters */
+.playerA {
+    color: #3498db;
+}
+
+.playerB {
+    color: #e74c3c;
+}
+
+/* Current player turn indication */
+.current-turn {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.move-history {
+    margin: 20px auto;
+    width: 300px;
+    font-size: 0.9rem;
+    color: #555;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    max-height: 150px;
+    overflow-y: auto;
+}

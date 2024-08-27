@@ -1,0 +1,71 @@
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.game-board {
+  display: inline-block;
+  margin: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.character-piece {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.character-piece.Pawn {
+  background-color: lightblue;
+}
+
+.character-piece.Hero1 {
+  background-color: lightgreen;
+}
+
+.character-piece.Hero2 {
+  background-color: lightcoral;
+}
+
+.move-options {
+  margin-top: 10px;
+}
+
+.move-options button {
+  margin: 5px;
+}
+
+.move-history {
+  margin-top: 20px;
+}
+
+.move-history ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.game-over-screen {
+  text-align: center;
+  padding: 21px;
+}
+
+.game-over-screen button {
+  margin-top: 20px;
+  padding: 10px 20px;
+}

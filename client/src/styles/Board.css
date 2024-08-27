@@ -1,0 +1,63 @@
+.board {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr); /* Adjust based on your board size */
+  gap: 5px; /* Add some spacing between the rows */
+  margin: 20px auto;
+  width: 500px; /* Set a fixed width for the board */
+  border: 2px solid #444; /* Add a border around the entire board */
+  background-color: #f0f0f0; /* Light background color for the board */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add subtle shadow for depth */
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Adjust based on your board size */
+  gap: 5px; /* Add some spacing between the cells */
+}
+
+.cell {
+  border: 2px solid #888; /* Darker border for the cells */
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #fff; /* Default background color for cells */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 24px; /* Increase font size for characters */
+  font-weight: bold;
+  color: #333; /* Darker color for the text */
+  border-radius: 5px; /* Rounded corners for the cells */
+}
+
+.cell:hover {
+  background-color: #ececec; /* Slightly darker background on hover */
+  transform: scale(1.05); /* Slight scaling effect on hover */
+}
+
+.cell.selected {
+  background-color: #f9c74f; /* Bright yellow for selected character */
+  border: 2px solid #f8961e; /* Highlighted border for selected character */
+  transform: scale(1.1); /* Increase scale slightly */
+}
+
+.cell.valid-move {
+  background-color: #90be6d; /* Light green for valid moves */
+  border: 2px solid #43aa8b; /* Darker green border for valid moves */
+}
+
+.cell.selected.valid-move {
+  background-color: #f9844a; /* Different color if the selected cell is a valid move */
+}
+
+@media (max-width: 600px) {
+  .board {
+    width: 100%; /* Make board responsive on smaller screens */
+    height: auto;
+  }
+
+  .cell {
+    height: 70px; /* Reduce cell size on smaller screens */
+    font-size: 18px;
+  }
+}
