@@ -58,31 +58,32 @@ _The detailed rules provided by Hitwicket should be followed for gameplay mechan
 1.  **Clone the repository**:
     
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   git clone https://github.com/your-username/hitwicket-custom-chess.git  cd hitwicket-custom-chess   `
+`   git clone https://github.com/your-username/hitwicket-custom-chess.git `
+ ` cd hitwicket-custom-chess   `
 
 **2\. Install dependencies**:
 
 **Backend**:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   cd backend  npm install   `
+`   cd backend  npm install   `
 
 **Frontend**:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   cd frontend  npm install   `
+`   cd frontend  npm install   `
 
 **3\. Set up environment variables** in the backend .env file:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   SOCKET_SERVER_URL=   `
+`   SOCKET_SERVER_URL=   `
 
 **4\. Run the servers**:
 
 **Backend**:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   nodemon server.js/node server.js   `
+`   nodemon server.js/node server.js   `
 
 **Frontend**:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   npm start   `
+`   npm start   `
 
 **Usage**
 ---------
@@ -105,9 +106,9 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 **Report Issues**
 -----------------
 
-If you encounter any problems or have suggestions, feel free to [create an issue](https://github.com/your-username/hitwicket-custom-chess/issues) on this repository.
+If you encounter any problems or have suggestions, feel free to [create an issue](https://github.com/heemaang/Hit-wickett.git) on this repository.
 
-*   **GitHub Issues**: [Report here](https://github.com/your-username/hitwicket-custom-chess/issues)
+*   **GitHub Issues**: [Report here](https://github.com/heemaang/Hit-wickett.git)
     
 
 **Contact**
@@ -115,6 +116,6 @@ If you encounter any problems or have suggestions, feel free to [create an issue
 
 For any questions or suggestions, please reach out to me:
 
-*   **GitHub**: [@your-username](https://github.com/your-username)
+*   **GitHub**: [@heemaang](https://github.com/heemaang)
     
-*   **Email**: your-email@example.com
+*   **Email**: heemaang.saxena18@gmail.com
